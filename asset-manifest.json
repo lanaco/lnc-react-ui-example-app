@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lnc-react-ui-example/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/lnc-react-ui-example/static/js/main.55bdc0e6.chunk.js",
+    "main.js.map": "/lnc-react-ui-example/static/js/main.55bdc0e6.chunk.js.map",
+    "runtime-main.js": "/lnc-react-ui-example/static/js/runtime-main.315365d6.js",
+    "runtime-main.js.map": "/lnc-react-ui-example/static/js/runtime-main.315365d6.js.map",
+    "static/js/2.02c1cb15.chunk.js": "/lnc-react-ui-example/static/js/2.02c1cb15.chunk.js",
+    "static/js/2.02c1cb15.chunk.js.map": "/lnc-react-ui-example/static/js/2.02c1cb15.chunk.js.map",
+    "static/js/3.9774412a.chunk.js": "/lnc-react-ui-example/static/js/3.9774412a.chunk.js",
+    "static/js/3.9774412a.chunk.js.map": "/lnc-react-ui-example/static/js/3.9774412a.chunk.js.map",
+    "index.html": "/lnc-react-ui-example/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/lnc-react-ui-example/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.02c1cb15.chunk.js.LICENSE.txt": "/lnc-react-ui-example/static/js/2.02c1cb15.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/lnc-react-ui-example/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.315365d6.js",
+    "static/js/2.02c1cb15.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.55bdc0e6.chunk.js"
+  ]
+}
