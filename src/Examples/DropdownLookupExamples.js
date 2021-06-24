@@ -68,12 +68,12 @@ const DropdownLookupExample = (props) => {
   };
 
   // example 2
-  const [selectedObject3, setSelectedObject3] = useState({
+  const [selectedObject3] = useState({
     key: 3,
     value: "Value 3",
   });
 
-  const [state3, setState3] = useState({
+  const [state3] = useState({
     Options: [
       { key: 1, value: "Value 1" },
       { key: 2, value: "Value 2" },
