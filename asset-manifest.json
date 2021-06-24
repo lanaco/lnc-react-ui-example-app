@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/lnc-react-ui-example-app/static/css/main.9080490d.chunk.css",
-    "main.js": "/lnc-react-ui-example-app/static/js/main.4bd27e20.chunk.js",
-    "main.js.map": "/lnc-react-ui-example-app/static/js/main.4bd27e20.chunk.js.map",
+    "main.css": "/lnc-react-ui-example-app/static/css/main.36dce0d3.chunk.css",
+    "main.js": "/lnc-react-ui-example-app/static/js/main.021ce7c1.chunk.js",
+    "main.js.map": "/lnc-react-ui-example-app/static/js/main.021ce7c1.chunk.js.map",
     "runtime-main.js": "/lnc-react-ui-example-app/static/js/runtime-main.c2035423.js",
     "runtime-main.js.map": "/lnc-react-ui-example-app/static/js/runtime-main.c2035423.js.map",
     "static/css/2.a0fe8d83.chunk.css": "/lnc-react-ui-example-app/static/css/2.a0fe8d83.chunk.css",
-    "static/js/2.c1fa71ac.chunk.js": "/lnc-react-ui-example-app/static/js/2.c1fa71ac.chunk.js",
-    "static/js/2.c1fa71ac.chunk.js.map": "/lnc-react-ui-example-app/static/js/2.c1fa71ac.chunk.js.map",
+    "static/js/2.40453a8c.chunk.js": "/lnc-react-ui-example-app/static/js/2.40453a8c.chunk.js",
+    "static/js/2.40453a8c.chunk.js.map": "/lnc-react-ui-example-app/static/js/2.40453a8c.chunk.js.map",
     "index.html": "/lnc-react-ui-example-app/index.html",
     "static/css/2.a0fe8d83.chunk.css.map": "/lnc-react-ui-example-app/static/css/2.a0fe8d83.chunk.css.map",
-    "static/css/main.9080490d.chunk.css.map": "/lnc-react-ui-example-app/static/css/main.9080490d.chunk.css.map",
-    "static/js/2.c1fa71ac.chunk.js.LICENSE.txt": "/lnc-react-ui-example-app/static/js/2.c1fa71ac.chunk.js.LICENSE.txt",
-    "static/media/styles.module.css": "/lnc-react-ui-example-app/static/media/lnclines.a1fd0962.woff"
+    "static/css/main.36dce0d3.chunk.css.map": "/lnc-react-ui-example-app/static/css/main.36dce0d3.chunk.css.map",
+    "static/js/2.40453a8c.chunk.js.LICENSE.txt": "/lnc-react-ui-example-app/static/js/2.40453a8c.chunk.js.LICENSE.txt",
+    "static/media/SideNavigation.module.css": "/lnc-react-ui-example-app/static/media/SideMenuBackgroundImage.1239c0c0.png",
+    "static/media/styles.module.css": "/lnc-react-ui-example-app/static/media/lnclines.a1fd0962.woff",
+    "static/media/logo-white-small.2569075b.svg": "/lnc-react-ui-example-app/static/media/logo-white-small.2569075b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2035423.js",
     "static/css/2.a0fe8d83.chunk.css",
-    "static/js/2.c1fa71ac.chunk.js",
-    "static/css/main.9080490d.chunk.css",
-    "static/js/main.4bd27e20.chunk.js"
+    "static/js/2.40453a8c.chunk.js",
+    "static/css/main.36dce0d3.chunk.css",
+    "static/js/main.021ce7c1.chunk.js"
   ]
 }
