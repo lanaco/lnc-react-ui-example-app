@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import SideNavigation from "./SideNavigation/SideNavigation";
 import ContentPanel from "./ContentPanel/ContentPanel";
 
