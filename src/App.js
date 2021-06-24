@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <div>
-        <h2>Examples</h2>
+        <h2>Examplessss</h2>
 
         <div style={{ display: "flex" }}>
           <ul>
