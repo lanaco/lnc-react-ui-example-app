@@ -1,0 +1,21 @@
+.contentPanel {
+  height: calc(100vh - 40px);
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+}

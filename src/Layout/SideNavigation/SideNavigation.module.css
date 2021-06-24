@@ -1,0 +1,145 @@
+:root {
+  --lanaco-sidebar-box-shadow: inset 0 0 0 500px rgba(0, 83, 122, 0.95);
+}
+
+.sideBar,
+.sideBarClosed {
+  padding-top: 10px;
+  /* padding-left: 5px; */
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: gray; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: all 300ms;
+}
+
+.sideBarClosed {
+  padding-top: 0px;
+  width: 30px;
+  /* padding-left: 5px; */
+  background-color: var(--lanaco-accent-color);
+}
+
+.sideBar {
+  background: url("../_assets/images/SideMenuBackgroundImage.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+  box-shadow: var(--lanaco-sidebar-box-shadow);
+  color: white;
+}
+
+.main,
+.mainSidebarClosed {
+  margin-left: 200px;
+  /* padding: 0px 0px; */
+  height: 100%;
+  transition: all 300ms;
+}
+
+.mainSidebarClosed {
+  margin-left: 30px;
+}
+
+.brand {
+  height: 40px;
+  background-color: gray;
+}
+
+/*=============================*/
+
+ul,
+.sitemap {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+.sitemap {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+.sideNavigationLogo {
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.sideNavigationLogo img {
+  text-align: center;
+  display: block;
+  height: 40px;
+  margin: auto;
+}
+
+.sideBarThemeLANACO {
+  box-shadow: var(--lanaco-sidebar-box-shadow_lvl2);
+  color: var(--lanaco-text-color);
+}
+
+.sideBarThemeLANACO_INV {
+  box-shadow: var(--lanaco-inv-sidebar-box-shadow);
+  color: var(--lanaco-inv-text-color);
+}
+
+.sideBarThemeBURG {
+  box-shadow: var(--burgundy-sidebar-box-shadow) !important;
+  color: var(--burgundy-text-color) !important;
+}
+
+.sideBarThemeBURG_INV {
+  box-shadow: var(--burg-inv-sidebar-box-shadow);
+  color: var(--burg-inv-text-color);
+}
+
+.sideBarThemeCOFFEE {
+  box-shadow: var(--coffee-sidebar-box-shadow);
+  color: var(--coffee-text-color);
+}
+
+.sideBarThemeCOFFEE_INV {
+  box-shadow: var(--coffee-inv-sidebar-box-shadow);
+  color: var(--coffee-inv-text-color);
+}
+
+.sideBarThemeFOREST {
+  box-shadow: var(--forest-sidebar-box-shadow);
+  color: var(--forest-text-color);
+}
+
+.sideBarThemeFOREST_INV {
+  box-shadow: var(--forest-inv-sidebar-box-shadow);
+  color: var(--forest-inv-text-color);
+}

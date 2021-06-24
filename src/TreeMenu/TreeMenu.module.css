@@ -1,0 +1,257 @@
+.lvl1 {
+  font-size: 1em;
+}
+
+.lvl2 {
+  font-size: 0.9em;
+}
+
+.lvl3 {
+  font-size: 0.85em;
+}
+
+.lvl4 {
+  font-size: 0.8em;
+}
+
+.closed_lvl1 {
+  font-size: 1.1em;
+  position: relative;
+  display: inline-block;
+}
+
+.closed_lvl2 {
+  font-size: 1em;
+  padding-left: 7px;
+}
+
+.closed_lvl3 {
+  font-size: 0.95em !important;
+  padding-left: 10px;
+}
+
+.closed_lvl4 {
+  font-size: 0.9em !important;
+  padding-left: 10px;
+}
+
+.pWrapperDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3px;
+}
+.p2,
+.p3,
+.p4 {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  position: relative;
+}
+
+.p2 {
+  padding-left: 5px;
+}
+
+.p3 {
+  padding-left: 19px;
+}
+
+.p4 {
+  padding-left: 33px;
+}
+
+.magicDivP2,
+.magicDivP3,
+.magicDivP4 {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  position: relative;
+}
+
+.magicDivP2 {
+  padding-left: 0px;
+}
+
+.magicDivP3 {
+  padding-left: 14px;
+}
+
+.magicDivP4 {
+  padding-left: 28px;
+}
+
+.p3:before,
+.p4::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #0091a7;
+}
+
+.p3:before {
+  left: 12px;
+}
+
+.p4::before {
+  left: 24px;
+}
+
+.p2:hover .linkInnerDivIcon,
+.p2:hover .linkInnerDivName,
+.p3:hover .linkInnerDivIcon,
+.p3:hover .linkInnerDivName,
+.p4:hover .linkInnerDivIcon,
+.p4:hover .linkInnerDivName {
+  color: #0091a7;
+}
+
+.togglable {
+  cursor: pointer;
+}
+
+.visible {
+  display: initial;
+}
+
+.hidden {
+  display: none;
+}
+
+.linkInnerDivClosed {
+  min-height: 1.5em;
+  margin-bottom: 0.5em;
+  position: relative;
+  display: inline-block;
+}
+
+.linkInnerDivClosed:hover .magicDiv {
+  display: block;
+}
+
+.linkInnerDivIcon {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  height: 100%;
+}
+
+.linkInnerDivIcon:hover {
+  color: #0091a7;
+}
+
+.linkInnerDivIconSelected {
+  color: #0091a7;
+}
+
+.linkInnerDivIconButton {
+  color: white;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.linkInnerDivName {
+  padding-left: 10px;
+  color: white;
+  line-height: normal;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
+}
+
+.linkInnerSpanName {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.4em;
+}
+
+.link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:active {
+  color: #0091a7;
+}
+
+.childItemWithLeftBorder {
+  border-right: 2px solid #0091a7;
+}
+
+.treeMenu {
+  color: white;
+  font-size: 0.96em;
+  position: relative;
+  z-index: 5;
+}
+
+.topAndBottomBorder {
+  box-shadow: var(--lanaco-sidebar-box-shadow_lvl3);
+  opacity: 0.8;
+}
+
+.magicDiv {
+  width: 200px !important;
+  position: fixed;
+  background-color: var(--lanaco-grids-and-forms-color);
+  font-size: 1em !important;
+  font-weight: normal !important;
+  padding-right: 5px !important;
+  margin-top: -15px;
+  margin-left: 20px;
+  color: var(--lanaco-accent-color) !important;
+  display: none;
+  min-width: 160px;
+  z-index: 10;
+  border: 1px solid gainsboro;
+  box-shadow: 0 0 20px #bebebe;
+}
+
+.magicDiv .linkInnerDivIcon {
+  color: var(--lanaco-accent-color) !important;
+}
+
+.magicDiv .linkInnerDivName {
+  color: var(--lanaco-accent-color) !important;
+}
+
+.magicDiv .linkInnerDivIconButton {
+  color: var(--lanaco-accent-color) !important;
+}
+
+.magicDiv .pWrapperDiv:hover {
+  background-color: gainsboro;
+  color: #0091a7 !important;
+}
+
+.magicDiv .pWrapperDiv:hover .linkInnerDivIcon {
+  color: #0091a7 !important;
+}
+.magicDiv .pWrapperDiv:hover .linkInnerDivName {
+  color: #0091a7 !important;
+}
+
+.activeItem {
+  color: #0091a7 !important;
+}
+/* 
+.togglable-down::after,
+.togglable-up::after {
+  font-size: 8px;
+  margin-left: 0.5em;
+  transition: all 300ms ease;
+}
+
+.togglable-down::after {
+  content: "▼";
+  display: inline-block;
+  transition: all 300ms ease;
+}
+
+.togglable-up::after {
+  content: "▶";
+  display: inline-block;
+  transition: all 300ms ease;
+} */
