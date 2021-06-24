@@ -1,4 +1,4 @@
-import { DropdownLookup as DropdownLookupLanaco } from "@lanaco/lanaco-react-library";
+import { DropdownLookup as DropdownLookupLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const DropdownLookupExample = (props) => {

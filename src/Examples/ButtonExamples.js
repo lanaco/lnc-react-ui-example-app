@@ -1,4 +1,4 @@
-import { Button as ButtonLanaco } from "@lanaco/lanaco-react-library";
+import { Button as ButtonLanaco } from "@lanaco/lnc-react-ui";
 import * as css from "./stylesExamples.module.css";
 
 const onClickButton = () => {

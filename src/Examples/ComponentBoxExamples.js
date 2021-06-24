@@ -1,5 +1,5 @@
-import { ComponentBox as ComponentBoxLanaco } from "@lanaco/lanaco-react-library";
-import { Button as ButtonLanaco } from "@lanaco/lanaco-react-library";
+import { ComponentBox as ComponentBoxLanaco } from "@lanaco/lnc-react-ui";
+import { Button as ButtonLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const ComponentBoxExample = (props) => {

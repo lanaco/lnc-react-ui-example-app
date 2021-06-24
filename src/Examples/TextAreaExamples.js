@@ -1,4 +1,4 @@
-import { TextArea as TextAreaLanaco } from "@lanaco/lanaco-react-library";
+import { TextArea as TextAreaLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const TextAreaExample = (props) => {

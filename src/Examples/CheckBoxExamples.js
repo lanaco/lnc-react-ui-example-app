@@ -1,4 +1,4 @@
-import { CheckBox as CheckBoxLanaco } from "@lanaco/lanaco-react-library";
+import { CheckBox as CheckBoxLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const CheckBoxExample = (props) => {
