@@ -1,6 +1,6 @@
 {
-  "name": "lnc-react-ui-example",
-  "homepage": "https://lanaco.github.io/lnc-react-ui-example",
+  "name": "lnc-react-ui-example-app",
+  "homepage": "https://lanaco.github.io/lnc-react-ui-example-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
