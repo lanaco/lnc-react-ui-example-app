@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./TreeMenu.module.css";
 import * as css from "./TreeMenu.module.css";
-import { IconButton as IconButtonLanaco } from "@lanaco/lanaco-react-library";
-import { Icon as IconLanaco } from "@lanaco/lanaco-react-library";
+import { IconButton as IconButtonLanaco } from "@lanaco/lnc-react-ui";
+import { Icon as IconLanaco } from "@lanaco/lnc-react-ui";
 
 const TreeMenu = (props) => {
   const [visible, setVisibility] = useState(
