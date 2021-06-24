@@ -1,4 +1,4 @@
-import { ToggleSwitch as ToggleSwitchLanaco } from "@lanaco/lanaco-react-library";
+import { ToggleSwitch as ToggleSwitchLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 import * as css from "./ToggleSwitchExamples.module.css";
 

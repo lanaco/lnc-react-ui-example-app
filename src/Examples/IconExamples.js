@@ -1,4 +1,4 @@
-import { Icon as IconLanaco } from "@lanaco/lanaco-react-library";
+import { Icon as IconLanaco } from "@lanaco/lnc-react-ui";
 
 const IconExample = (props) => {
   return (

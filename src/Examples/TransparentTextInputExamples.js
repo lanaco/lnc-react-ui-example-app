@@ -1,4 +1,4 @@
-import { TransparentTextInput as TransparentTextInputLanaco } from "@lanaco/lanaco-react-library";
+import { TransparentTextInput as TransparentTextInputLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const TransparentTextInputExample = (props) => {

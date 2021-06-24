@@ -1,4 +1,4 @@
-import { DataView as DataViewLanaco } from "@lanaco/lanaco-react-library";
+import { DataView as DataViewLanaco } from "@lanaco/lnc-react-ui";
 
 const DataViewExample = (props) => {
   return <DataViewLanaco {...props}></DataViewLanaco>;

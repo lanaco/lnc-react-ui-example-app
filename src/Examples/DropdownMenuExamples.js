@@ -1,4 +1,4 @@
-import { DropdownMenu as DropdownMenuLanaco } from "@lanaco/lanaco-react-library";
+import { DropdownMenu as DropdownMenuLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const DropdownMenuExample = (props) => {

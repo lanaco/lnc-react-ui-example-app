@@ -1,4 +1,4 @@
-import { DateInput as DateInputLanaco } from "@lanaco/lanaco-react-library";
+import { DateInput as DateInputLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const DateInputExample = (props) => {

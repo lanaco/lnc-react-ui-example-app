@@ -1,4 +1,4 @@
-import { CheckboxLookup as CheckboxLookupLanaco } from "@lanaco/lanaco-react-library";
+import { CheckboxLookup as CheckboxLookupLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const CheckboxLookupExample = (props) => {

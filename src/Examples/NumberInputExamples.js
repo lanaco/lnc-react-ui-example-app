@@ -1,4 +1,4 @@
-import { NumberInput as NumberInputLanaco } from "@lanaco/lanaco-react-library";
+import { NumberInput as NumberInputLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const NumberInputExample = (props) => {

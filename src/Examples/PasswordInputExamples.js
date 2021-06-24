@@ -1,4 +1,4 @@
-import { PasswordInput as PasswordInputLanaco } from "@lanaco/lanaco-react-library";
+import { PasswordInput as PasswordInputLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const PasswordInputExample = (props) => {

@@ -1,4 +1,4 @@
-import { Grid as GridLanaco } from "@lanaco/lanaco-react-library";
+import { Grid as GridLanaco } from "@lanaco/lnc-react-ui";
 
 const GridExample = (props) => {
   const Columns = [

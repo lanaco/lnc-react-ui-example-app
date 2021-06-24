@@ -1,4 +1,4 @@
-import { TextInput as TextInputLanaco } from "@lanaco/lanaco-react-library";
+import { TextInput as TextInputLanaco } from "@lanaco/lnc-react-ui";
 import { useState } from "react";
 
 const TextInputExample = (props) => {
