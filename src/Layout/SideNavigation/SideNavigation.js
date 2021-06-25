@@ -1,7 +1,7 @@
 import React from "react";
 import * as css from "./SideNavigation.module.css";
 import TreeMenu from "../../TreeMenu/TreeMenu";
-import logoImg from "../_assets/images/logo-white-small.svg";
+import logoImg from "../_assets/images/lanaco-logo.png";
 import { Link } from "react-router-dom";
 
 const SideNavigation = (props) => {
@@ -27,7 +27,11 @@ const SideNavigation = (props) => {
         <div className={css.sideNavigationLogo}>
           {props.open ? (
             <Link to={homeUrl}>
-              <img src={logoImg} alt="logo"></img>
+              <img
+                style={{ width: "100%", height: "100%" }}
+                src={logoImg}
+                alt="logo"
+              ></img>
             </Link>
           ) : (
             ""

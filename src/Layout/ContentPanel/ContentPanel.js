@@ -26,6 +26,22 @@ const ContentPanel = (props) => {
     <div onClick={props.onClick} className={css.contentPanel}>
       <Switch>
         <Route
+          path="/"
+          children={
+            <div className="ButtonExamplesContainer">
+              <ButtonExamples></ButtonExamples>
+            </div>
+          }
+        />
+        <Route
+          path="/lnc-react-ui-example-app"
+          children={
+            <div className="ButtonExamplesContainer">
+              <ButtonExamples></ButtonExamples>
+            </div>
+          }
+        />
+        <Route
           path="/ButtonExamples"
           children={
             <div className="ButtonExamplesContainer">
