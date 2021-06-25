@@ -91,12 +91,6 @@ const Layout = (props) => {
         children: [],
       },
       {
-        name: "DataViewExamples",
-        url: "/DataViewExamples",
-        componentName: "DataViewExamples",
-        children: [],
-      },
-      {
         name: "ComponentBoxExamples",
         url: "/ComponentBoxExamples",
         componentName: "ComponentBoxExamples",

@@ -15,7 +15,6 @@ import TextAreaExamples from "../../Examples/TextAreaExamples";
 import TextInputExamples from "../../Examples/TextInputExamples";
 import ToggleSwitchExamples from "../../Examples/ToggleSwitchExamples";
 import TransparentTextInputExamples from "../../Examples/TransparentTextInputExamples";
-import DataViewExamples from "../../Examples/DataViewExamples";
 import ComponentBoxExamples from "../../Examples/ComponentBoxExamples";
 import ConfirmationFormExamples from "../../Examples/ConfirmationFormExamples";
 import DropdownMenuExamples from "../../Examples/DropdownMenuExamples";
@@ -150,14 +149,6 @@ const ContentPanel = (props) => {
           children={
             <div className="TransparentTextInputExamplesContainer">
               <TransparentTextInputExamples></TransparentTextInputExamples>
-            </div>
-          }
-        />
-        <Route
-          path="/DataViewExamples"
-          children={
-            <div className="DataViewExamplesContainer">
-              <DataViewExamples></DataViewExamples>
             </div>
           }
         />
