@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lnc-react-ui-example-app/static/css/main.36dce0d3.chunk.css",
-    "main.js": "/lnc-react-ui-example-app/static/js/main.021ce7c1.chunk.js",
-    "main.js.map": "/lnc-react-ui-example-app/static/js/main.021ce7c1.chunk.js.map",
+    "main.js": "/lnc-react-ui-example-app/static/js/main.fbb2c2d0.chunk.js",
+    "main.js.map": "/lnc-react-ui-example-app/static/js/main.fbb2c2d0.chunk.js.map",
     "runtime-main.js": "/lnc-react-ui-example-app/static/js/runtime-main.c2035423.js",
     "runtime-main.js.map": "/lnc-react-ui-example-app/static/js/runtime-main.c2035423.js.map",
     "static/css/2.a0fe8d83.chunk.css": "/lnc-react-ui-example-app/static/css/2.a0fe8d83.chunk.css",
@@ -13,14 +13,14 @@
     "static/css/main.36dce0d3.chunk.css.map": "/lnc-react-ui-example-app/static/css/main.36dce0d3.chunk.css.map",
     "static/js/2.40453a8c.chunk.js.LICENSE.txt": "/lnc-react-ui-example-app/static/js/2.40453a8c.chunk.js.LICENSE.txt",
     "static/media/SideNavigation.module.css": "/lnc-react-ui-example-app/static/media/SideMenuBackgroundImage.1239c0c0.png",
-    "static/media/styles.module.css": "/lnc-react-ui-example-app/static/media/lnclines.a1fd0962.woff",
-    "static/media/logo-white-small.2569075b.svg": "/lnc-react-ui-example-app/static/media/logo-white-small.2569075b.svg"
+    "static/media/lanaco-logo.b03af13f.png": "/lnc-react-ui-example-app/static/media/lanaco-logo.b03af13f.png",
+    "static/media/styles.module.css": "/lnc-react-ui-example-app/static/media/lnclines.a1fd0962.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.c2035423.js",
     "static/css/2.a0fe8d83.chunk.css",
     "static/js/2.40453a8c.chunk.js",
     "static/css/main.36dce0d3.chunk.css",
-    "static/js/main.021ce7c1.chunk.js"
+    "static/js/main.fbb2c2d0.chunk.js"
   ]
 }
