@@ -31,6 +31,7 @@ const ContentPanel = (props) => {
               <ButtonExamples></ButtonExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/lnc-react-ui-example-app"
@@ -39,6 +40,7 @@ const ContentPanel = (props) => {
               <ButtonExamples></ButtonExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/ButtonExamples"
@@ -47,6 +49,7 @@ const ContentPanel = (props) => {
               <ButtonExamples></ButtonExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/CheckBoxExamples"
@@ -55,6 +58,7 @@ const ContentPanel = (props) => {
               <CheckBoxExamples></CheckBoxExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/CheckBoxLookupExamples"
@@ -63,6 +67,7 @@ const ContentPanel = (props) => {
               <CheckBoxLookupExamples></CheckBoxLookupExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/DateInputExamples"
@@ -71,6 +76,7 @@ const ContentPanel = (props) => {
               <DateInputExamples></DateInputExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/DropDownExamples"
@@ -79,6 +85,7 @@ const ContentPanel = (props) => {
               <DropDownExamples></DropDownExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/DropdownLookupExamples"
@@ -87,6 +94,7 @@ const ContentPanel = (props) => {
               <DropdownLookupExamples></DropdownLookupExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/IconExamples"
@@ -95,6 +103,7 @@ const ContentPanel = (props) => {
               <IconExamples></IconExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/IconButtonExamples"
@@ -103,6 +112,7 @@ const ContentPanel = (props) => {
               <IconButtonExamples></IconButtonExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/NumberInputExamples"
@@ -111,6 +121,7 @@ const ContentPanel = (props) => {
               <NumberInputExamples></NumberInputExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/PasswordInputExamples"
@@ -119,6 +130,7 @@ const ContentPanel = (props) => {
               <PasswordInputExamples></PasswordInputExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/TextAreaExamples"
@@ -127,6 +139,7 @@ const ContentPanel = (props) => {
               <TextAreaExamples></TextAreaExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/TextInputExamples"
@@ -135,6 +148,7 @@ const ContentPanel = (props) => {
               <TextInputExamples></TextInputExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/ToggleSwitchExamples"
@@ -143,6 +157,7 @@ const ContentPanel = (props) => {
               <ToggleSwitchExamples></ToggleSwitchExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/TransparentTextInputExamples"
@@ -151,6 +166,7 @@ const ContentPanel = (props) => {
               <TransparentTextInputExamples></TransparentTextInputExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/ComponentBoxExamples"
@@ -159,7 +175,9 @@ const ContentPanel = (props) => {
               <ComponentBoxExamples></ComponentBoxExamples>
             </div>
           }
+          exact
         />
+
         <Route
           path="/ConfirmationFormExamples"
           children={
@@ -167,6 +185,7 @@ const ContentPanel = (props) => {
               <ConfirmationFormExamples></ConfirmationFormExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/DropdownMenuExamples"
@@ -175,6 +194,7 @@ const ContentPanel = (props) => {
               <DropdownMenuExamples></DropdownMenuExamples>
             </div>
           }
+          exact
         />
         <Route
           path="/GridExamples"
@@ -183,6 +203,7 @@ const ContentPanel = (props) => {
               <GridExamples></GridExamples>
             </div>
           }
+          exact
         />
       </Switch>
     </div>
